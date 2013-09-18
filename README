@@ -1,0 +1,9 @@
+README.txt
+
+All you need to do is run the Server application from command line or and IDE. You can supply a port number, but if none is given it will use a default port to bind to; 6060.
+
+Once the server is running, run the Android SimpleChat client on an emulator as it connect to the localhost IP address of 10.0.2.2.
+
+Currently the client is able to send messages to the server and the server prints them out to the command line. Getting messages back to the client has is still in the works, might need to use an Async class instead of Threading??
+
+-LNW
